@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
         <!-- Styles -->
         <style>
@@ -79,16 +80,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Server pentru Nastea
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div>
+                    <a href="/get" class="btn btn-success">GET</a>
+                    <a href="/post/view" class="btn btn-primary">POST</a>
                 </div>
             </div>
         </div>
